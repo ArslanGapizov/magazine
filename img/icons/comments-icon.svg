@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15.03" viewBox="0 0 16 15.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #56ccc8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Comments_icon" data-name="Comments icon" class="cls-1" d="M787,2830.97c-4.419,0-8,3.22-8,6.53a5.781,5.781,0,0,0,3.5,4.96,0.054,0.054,0,0,0,0,.04c0.5,0.5-.5,3.5-1.5,3.5,1.658,0.01,4-1,4.457-2.62a9.75,9.75,0,0,0,1.543.12c4.418,0,8-2.69,8-6S791.418,2830.97,787,2830.97Z" transform="translate(-779 -2830.97)"/>
+</svg>

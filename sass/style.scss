@@ -5,6 +5,7 @@
 
 @import "global/fonts.scss";
 @import "global/scaffolding.scss";
+@import "global/icon.scss";
 
 @import "blocks/page-header.scss";
 @import "blocks/page-main.scss";
@@ -28,3 +29,7 @@
 @import "blocks/tabs-block.scss";
 @import "blocks/twitter-feed-block.scss";
 @import "blocks/view-stories-block.scss";
+
+@import "blocks/search.scss";
+@import "blocks/social.scss";
+@import "blocks/login.scss";

@@ -55,7 +55,7 @@ gulp.task("symbols", function() {
       inlineSvg: true
     }))
     .pipe(rename("sprite.svg"))
-    .pipe(gulp.dest("build/img"));
+    .pipe(gulp.dest("img"));/*build*/
 });
 
 gulp.task("serve",["style"], function() {

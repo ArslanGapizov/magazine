@@ -1,5 +1,29 @@
 .burger-btn{
+    position: relative;
     display: block;
     width: 60px;
+    height: 60px;
     background-color: #56ccc8;
+    cursor: pointer;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 22px;
+        height: 3px;
+        left: 19px;
+        top: 22px;
+        border-radius: 1px;
+        background-color: #fff;
+        box-shadow: 0 7px 0 #fff;
+    }
+    &::after{
+        position: absolute;
+        content: '';
+        width: 22px;
+        height: 3px;
+        left: 19px;
+        top: 36px;
+        border-radius: 1px;
+        background-color: #fff;
+    }
 }

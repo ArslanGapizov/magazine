@@ -1,5 +1,45 @@
 .sign-in-block{
     width: 100%;
     height: 166px;
+    padding-top: 25px;
+    background-color: #fff;
     outline: 1px solid red;
+}
+.sign-in-block__title{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sign-in-block__text{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.sign-in-block__btns{
+    display: flex;
+    justify-content: center;
+}
+.sign-in-block__btn{
+    margin-left: 11px;
+    margin-right: 11px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    fill: #fff;
+    &_facebook{
+        background-color: #4d6baa;
+    }
+    &_twitter{
+        background-color: #4fc6f8;
+    }
+    &_google-plus{
+        background-color: #ea6060;
+    }
+    &_linkedin{
+        background-color: #238cc8;
+    }
 }

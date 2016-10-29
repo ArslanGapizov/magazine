@@ -20,9 +20,43 @@
             </ul>
         </nav>
         <div class="user-block">
-            <div class="user-block__search"></div>
-            <div class="user-block__social"></div>
-            <div class="user-block__profile"></div>
+            <div class="user-block__search">
+                <div class="search">
+                    <a href="#" class="search__btn">
+                        <svg class="icon icon_search">
+                           <use xlink:href="img/sprite.svg#search-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="user-block__social">
+                <div class="social">
+                    <a href="#" class="social__item social__facebook">
+                        <svg class="icon icon_facebook">
+                           <use xlink:href="img/sprite.svg#facebook-icon"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item social__twitter">
+                        <svg class="icon icon_twitter">
+                           <use xlink:href="img/sprite.svg#twitter-icon"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item social__google-plus">
+                        <svg class="icon icon_google-plus">
+                           <use xlink:href="img/sprite.svg#google-plus-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="user-block__profile">
+                <div class="login">
+                    <a href="#" class="login__btn">
+                        <svg class="icon icon_login">
+                           <use xlink:href="img/sprite.svg#login-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
     </header>
     <main class="page-main">
@@ -36,23 +70,123 @@
                     <div class="column column_4">
                         <!--socials--->
                         <div class="row">
-                            <div class="social-block"></div>
+                            <div class="social-block">
+                                <a href="#" class="social-block__link">
+                                    <span class="social-block__icon">
+                                        <svg class="icon icon_facebook">
+                                            <use xlink:href="img/sprite.svg#facebook-icon"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="social-block__text">Facebook</span>
+                                </a>
+                                <a href="#" class="social-block__link">
+                                    <span class="social-block__icon">
+                                        <svg class="icon icon_twitter">
+                                            <use xlink:href="img/sprite.svg#twitter-icon"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="social-block__text">Twitter</span>
+                                </a>
+                                <a href="#" class="social-block__link">
+                                    <span class="social-block__icon">
+                                        <svg class="icon icon_google-plus">
+                                            <use xlink:href="img/sprite.svg#google-plus-icon"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="social-block__text">Google +</span>
+                                </a>
+                                <a href="#" class="social-block__link">
+                                    <span class="social-block__icon">
+                                        <svg class="icon icon_rss">
+                                            <use xlink:href="img/sprite.svg#rss-icon"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="social-block__text">Rss Feeds</span>
+                                </a>
+                                <a href="#" class="social-block__link">
+                                    <span class="social-block__icon">
+                                        <svg class="icon icon_pinterest">
+                                            <use xlink:href="img/sprite.svg#pinterest-icon"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="social-block__text">Pinterest</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="column column_4">
                         <!--facebook-->
                         <div class="row">
-                            <div class="facebook-block"></div>
+                            <div class="facebook-block">
+                                <div class="facebook-block__icon">
+                                    <svg class="icon icon_facebook_big">
+                                        <use xlink:href="img/sprite.svg#facebook-icon"></use>
+                                    </svg>
+                                </div>
+                                <div class="facebook-block__follow">
+                                    <span class="facebook-block__qty">156K</span>
+                                    <a href="#" class="facebook-block__follow-btn">
+                                        Follow
+                                        <span class="facebook-block__icon-follow">
+                                            <svg class="icon icon_follow">
+                                                <use xlink:href="img/sprite.svg#follow-icon"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <!--twitter-->
                         <div class="row">
-                            <div class="twitter-block"></div>
+                            <div class="twitter-block">
+                                <div class="twitter-block__icon">
+                                    <svg class="icon icon_twitter_big">
+                                        <use xlink:href="img/sprite.svg#twitter-icon"></use>
+                                    </svg>
+                                </div>
+                                <div class="twitter-block__follow">
+                                    <div class="twitter-block__qty">89K</div>
+                                    <a href="#" class="twitter-block__follow-btn">
+                                        Following
+                                        <span class="twitter-block__icon-follow">
+                                            <svg class="icon icon_follow">
+                                                <use xlink:href="img/sprite.svg#followed-icon"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!--sign in-->
                 <div class="row">
-                    <div class="sign-in-block"></div>
+                    <div class="sign-in-block">
+                        <h3 class="sign-in-block__title">Sign In</h3>
+                        <p class="sign-in-block__text">Just select your favorite social network to get started</p>
+                        <div class="sign-in-block__btns">
+                            <a href="#" class="sign-in-block__btn sign-in-block__btn_facebook">
+                                <svg class="icon icon_facebook">
+                                    <use xlink:href="img/sprite.svg#facebook-icon"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="sign-in-block__btn sign-in-block__btn_twitter">
+                                <svg class="icon icon_twitter">
+                                    <use xlink:href="img/sprite.svg#twitter-icon"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="sign-in-block__btn sign-in-block__btn_google-plus">
+                                <svg class="icon icon_google-plus">
+                                    <use xlink:href="img/sprite.svg#google-plus-icon"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="sign-in-block__btn sign-in-block__btn_linkedin">
+                                <svg class="icon icon_linkedin">
+                                    <use xlink:href="img/sprite.svg#linkedin-icon"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <!--join the newsletter-->
                 <div class="row">

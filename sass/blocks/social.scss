@@ -1,0 +1,19 @@
+.social{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 1px solid #dde2e4;
+    border-right: 1px solid #dde2e4;
+}
+.social__item{
+    line-height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.social__item svg{
+    fill: #b2b9bd;
+}
