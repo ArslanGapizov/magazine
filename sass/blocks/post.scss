@@ -1,0 +1,8 @@
+.post{
+    width: 100%;
+    height: 302px;
+    outline: 1px solid red;
+    &_large{
+        height: 600px;
+    }
+}

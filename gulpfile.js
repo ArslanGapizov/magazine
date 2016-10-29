@@ -22,7 +22,11 @@ gulp.task("style", function() {
    .pipe(sass())
    .pipe(postcss([
      autoprefixer({browsers: [
-       'last 2 versions'
+         "last 1 version",
+         "last 2 Chrome versions",
+         "last 2 Firefox versions",
+         "last 2 Opera versions",
+         "last 2 Edge versions"
      ]}),
      mqpacker({
        sort: false
@@ -56,7 +60,7 @@ gulp.task("symbols", function() {
 
 gulp.task("serve",["style"], function() {
    server.init({
-       server: "build"/*build*/
+       server: "."/*build*/
    });
 
     gulp.watch("sass/**/*.scss", ["style"]);

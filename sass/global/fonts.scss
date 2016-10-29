@@ -1,18 +1,38 @@
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/OpenSans-Regular-webfont.woff");
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/OpenSans-Light-webfont.woff");
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/OpenSans-Bold-webfont.woff");
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }

@@ -1,0 +1,6 @@
+.page-main{
+    @include container;
+    outline: 1px solid red;
+    min-height: 50px;
+    margin-bottom: 105px;
+}
