@@ -1,0 +1,36 @@
+{
+  "name": "magazine",
+  "version": "0.1.0",
+  "description": "project magazine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArslanGapizov/magazine.git"
+  },
+  "author": "Arslan Gapizov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArslanGapizov/magazine/issues"
+  },
+  "homepage": "https://github.com/ArslanGapizov/magazine#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "browser-sync": "^2.17.5",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-svgstore": "^6.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}
