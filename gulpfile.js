@@ -22,20 +22,16 @@ gulp.task("style", function() {
    .pipe(sass())
    .pipe(postcss([
      autoprefixer({browsers: [
-       "last 1 version",
-       "last 2 Chrome versions",
-       "last 2 Firefox versions",
-       "last 2 Opera versions",
-       "last 2 Edge versions"
+       'last 2 versions'
      ]}),
      mqpacker({
        sort: false
      })
    ]))
-   .pipe(gulp.dest("build/css"))/*build*/
+   .pipe(gulp.dest("css"))/*build*/
    .pipe(minify())
    .pipe(rename("style.min.css"))
-   .pipe(gulp.dest("build/css"))/*build*/
+   .pipe(gulp.dest("css"))/*build*/
    .pipe(server.reload({stream: true}));
 });
 
