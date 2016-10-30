@@ -1,0 +1,24 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 246px;
+    color: #fff;
+    fill: #fff;
+    background-color: #c5cdd1;
+}
+.contacts__item{
+    display: flex;
+}
+.contacts__icon{
+    width: 65px;
+    text-align: center;
+}
+.contacts__link{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
