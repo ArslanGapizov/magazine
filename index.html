@@ -479,13 +479,95 @@
                 </div>
             </div>
             <div class="row">
-                <div class="twitter-feed-block"></div>
+                <div class="twitter-feed-block">
+                    <a class="twitter-feed-block__author" href="">
+                        <span class="twitter-feed-block__name">Alex White</span>
+                        <span class="twitter-feed-block__nickname">@alexwhite</span>
+                        <span class="twitter-feed-block__icon-follow">
+                            <svg class="icon icon_follow">
+                                <use xlink:href="img/sprite.svg#followed-icon"></use>
+                            </svg>
+                        </span>
+                    </a>
+                    <div class="twitter-feed-block__list">
+                        <a class="twitter-feed-block__post" href="#">
+                            <p class="twitter-feed-block__text">Singolo is a free PSD template of a flat, single page website created by <b>@PsdChat #freebie #psd http://bit.ly/19XM8Lj</b></p>
+                            <time class="twitter-feed-block__time">2 hours ago</time>
+                        </a>
+                        <a class="twitter-feed-block__post" href="#">
+                            <p class="twitter-feed-block__text">Saturday Career Worshops are back at ADC! See what high school students created this week: <b>http://bit.ly/Xx1EsL</b></p>
+                            <time class="twitter-feed-block__time">6 hours ago</time>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="news-feed-block"></div>
+                <div class="news-feed-block">
+                  <input type="radio" class="news-feed-block__radio" id="news-feed-block-radio-1" name="news-feed-block" checked>
+                  <input type="radio" class="news-feed-block__radio" id="news-feed-block-radio-2" name="news-feed-block">
+                  <input type="radio" class="news-feed-block__radio" id="news-feed-block-radio-3" name="news-feed-block">
+                  <div class="news-feed-block__header">
+                    <h2 class="news-feed-block__title">What`s Hot</h3>
+                    <div class="news-feed-block__toggles">
+                      <label for="news-feed-block-radio-1" class="news-feed-block__toggle"></label>
+                      <label for="news-feed-block-radio-2" class="news-feed-block__toggle"></label>
+                      <label for="news-feed-block-radio-3" class="news-feed-block__toggle"></label>
+                    </div>
+                  </div>
+                  <ul class="news-feed-block__list">
+                    <li class="news-feed-block__item">
+                      <img src="" alt="" width="71" height="71" class="news-feed-block__image">
+                      <div class="news-feed-block__wrapper">
+                      <a href="" class="news-feed-block__link">
+                        <h3 class="news-feed-block__text">A New Yorker doesn`t necessarily come from...</h3></a>
+                      <time class="news-feed-block__time">3 minutes ago</time>
+                      </div>
+                    </li>
+                    <li class="news-feed-block__item">
+                      <img src="" alt="" width="71" height="71" class="news-feed-block__image">
+                      <div class="news-feed-block__wrapper">
+                      <a href="" class="news-feed-block__link">
+                        <h3 class="news-feed-block__text">A New Yorker never looks up...</h3></a>
+                      <time class="news-feed-block__time">7 hours ago</time>
+                      </div>
+                    </li>
+                    <li class="news-feed-block__item">
+                      <img src="" alt="" width="71" height="71" class="news-feed-block__image">
+                      <div class="news-feed-block__wrapper">
+                      <a href="" class="news-feed-block__link">
+                        <h3 class="news-feed-block__text">A New Yorker doesn`t take cabs</h3></a>
+                      <time class="news-feed-block__time">23 hours ago</time>
+                      </div>
+                    </li>
+                    <li class="news-feed-block__item">
+                      <img src="" alt="" width="71" height="71" class="news-feed-block__image">
+                      <div class="news-feed-block__wrapper">
+                      <a href="" class="news-feed-block__link">
+                        <h3 class="news-feed-block__text">A New Yorker views celebrities as regular...</h3></a>
+                      <time class="news-feed-block__time">1 day ago</time>
+                      </div>
+                    </li>
+                    <li class="news-feed-block__item">
+                      <img src="" alt="" width="71" height="71" class="news-feed-block__image">
+                      <div class="news-feed-block__wrapper">
+                      <a href="" class="news-feed-block__link">
+                        <h3 class="news-feed-block__text">A New Yorker never looks up...</h3></a>
+                      <time class="news-feed-block__time">2 days ago</time>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
             </div>
             <div class="row">
-                <div class="question-block"></div>
+                <div class="question-block">
+                    <h2 class="question-block__title">Ask a Question</h2>
+                    <form action="echo" method="post" class="question-block__form">
+                        <input type="text" class="question-block__input question-block__input_name" placeholder="Your name">
+                        <input type="email" class="question-block__input question-block__input_email" placeholder="Your email">
+                        <textarea name="" id="" cols="30" rows="10" class="question-block__input question-block__input_textarea" placeholder="Your question..."></textarea>
+                        <button type="submit" class="question-block__btn">submit</button>
+                    </form>
+                </div>
             </div>
             </div>
             <div class="column column_3-2">
