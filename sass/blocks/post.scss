@@ -1,8 +1,125 @@
 .post{
+    position: relative;
     width: 100%;
     height: 302px;
     outline: 1px solid red;
+    &_big{
+        display: flex;
+    }
+    &_medium{
+        display: flex;
+    }
     &_large{
         height: 600px;
     }
+    overflow: hidden;
+}
+.post__icon{
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    fill: #fff;
+    &_red{
+        background-color: #ea6060;
+    }
+    &_blue{
+        background-color: #4fc6f8;
+    }
+}
+.post_big .post__info{
+    width: 314px;
+    padding-top: 36px;
+    padding-left: 62px;
+    padding-right: 30px;
+    background-color: #fff;
+}
+.post_medium .post__info{
+    width: 314px;
+    padding-top: 36px;
+    padding-left: 62px;
+    padding-right: 30px;
+    background-color: #fff;
+}
+.post__title{
+    margin: 0;
+    width: 210px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.post__time{
+    font-size: 15px;
+    font-weight: 100;
+}
+.post__text{
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+}
+.post__link{
+    text-decoration: none;
+    color: #ea6060;
+}
+.post__btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 110px;
+    background-color: #1f3045;
+}
+.post_small .post__btns,
+.post_medium .post__btns{
+    position: absolute;
+    right: 0;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    height: 302px;
+    transform: translate(100%);
+    transition: 0.3s;
+}
+.post_small:hover .post__btns,
+.post_medium:hover .post__btns{
+    transform: translate(0%);
+}
+.post__btn{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    fill: #fff;
+    &_like{
+        &:hover{
+            fill: #ea6060;
+            stroke: #ea6060;
+        }
+    }
+}
+.post_small .post__btn,
+.post_medium .post__btn{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.post__icon-btn{
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.post__content{
+    width: 504px;
+    background-color: #787878;
+}
+.post_small .post__content,
+.post_medium .post__content{
+    width: 300px;
+    height: 302px;
+    background-color: #787878;
 }
