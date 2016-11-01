@@ -17,6 +17,7 @@
     position: relative;
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
     &::before{
         position: absolute;
         top: 50%;
@@ -66,6 +67,7 @@
     text-align: center;
     vertical-align: middle;
     background-color: #152840;
+    transition: 0.3s;
     &_day:nth-child(7n-1),
     &_day:nth-child(7n){
         background-color: #324864;
