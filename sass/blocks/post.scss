@@ -10,6 +10,8 @@
         display: flex;
     }
     &_large{
+        display: flex;
+        flex-direction: column;
         height: 600px;
     }
     overflow: hidden;
@@ -30,6 +32,12 @@
     &_blue{
         background-color: #4fc6f8;
     }
+    &_green{
+        background-color: #4bc7c7;
+    }
+}
+.post_large .post__icon{
+    top: 336px;
 }
 .post_big .post__info{
     width: 314px;
@@ -45,6 +53,20 @@
     padding-right: 30px;
     background-color: #fff;
 }
+.post_large .post__info{
+    width: 100%;
+    height: 240px;
+    padding-top: 36px;
+    padding-right: 60px;
+    padding-left: 68px;
+    background-color: #fff;
+}
+.post_large .post__content{
+    order: -1;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
 .post__title{
     margin: 0;
     width: 210px;
@@ -52,9 +74,15 @@
     font-weight: 500;
     line-height: 35px;
 }
+.post_large .post__title{
+    width: 100%;
+}
 .post__time{
     font-size: 15px;
     font-weight: 100;
+}
+.post_large .post__time{
+    display: none;
 }
 .post__text{
     margin-top: 25px;
@@ -73,6 +101,18 @@
     align-items: center;
     width: 110px;
     background-color: #1f3045;
+}
+.post_large .post__btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 60px;
+    padding-left: 68px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
 }
 .post_small .post__btns,
 .post_medium .post__btns{
@@ -112,6 +152,14 @@
     display: block;
     margin-bottom: 5px;
     text-align: center;
+}
+.post_large .post__icon-btn{
+    display: inline;
+}
+.post_large .post__btn{
+    margin-right: 30px;
+    color: #475055;
+    fill: #56ccc8;
 }
 .post__content{
     width: 504px;

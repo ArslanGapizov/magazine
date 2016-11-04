@@ -111,8 +111,25 @@
         width: 32px;
         height: 29px;
     }
+    &_share_small{
+        width: 18px;
+        height: 16px;
+    }
+    &_views{
+        width: 24px;
+        height: 14px;
+    }
+    &_comments{
+        width: 16px;
+        height: 15px;
+    }
     &_quote{
         width: 17px;
         height: 16px;
+    }
+    &_article{
+        width: 13px;
+        height: 17px;
+        fill-rule: evenodd;
     }
 }
