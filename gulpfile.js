@@ -22,20 +22,16 @@ gulp.task("style", function() {
    .pipe(sass())
    .pipe(postcss([
      autoprefixer({browsers: [
-         "last 1 version",
-         "last 2 Chrome versions",
-         "last 2 Firefox versions",
-         "last 2 Opera versions",
-         "last 2 Edge versions"
+         "last 2 versions"
      ]}),
      mqpacker({
        sort: false
      })
    ]))
-   .pipe(gulp.dest("css"))/*build*/
+   .pipe(gulp.dest("build/css"))/*build*/
    .pipe(minify())
    .pipe(rename("style.min.css"))
-   .pipe(gulp.dest("css"))/*build*/
+   .pipe(gulp.dest("build/css"))/*build*/
    .pipe(server.reload({stream: true}));
 });
 
@@ -55,12 +51,12 @@ gulp.task("symbols", function() {
       inlineSvg: true
     }))
     .pipe(rename("sprite.svg"))
-    .pipe(gulp.dest("img"));/*build*/
+    .pipe(gulp.dest("build/img"));/*build*/
 });
 
-gulp.task("serve",["style"], function() {
+gulp.task("server",["style"], function() {
    server.init({
-       server: "."/*build*/
+       server: "build"/*build*/
    });
 
     gulp.watch("sass/**/*.scss", ["style"]);
