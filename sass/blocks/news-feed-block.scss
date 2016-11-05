@@ -37,6 +37,12 @@
     #news-feed-block-radio-#{$i}:checked ~ .news-feed-block__header [for="news-feed-block-radio-#{$i}"]{
         background-color: #a3abaf;
     }
+    #news-feed-block-radio-#{$i}:checked ~ .news-feed-block__wrapper .news-feed-block__list{
+        transform: translateY(-450px * ($i - 1));
+    }
+}
+.news-feed-block__wrapper{
+    overflow: hidden;
 }
 .news-feed-block__list{
     list-style: none;
@@ -45,13 +51,14 @@
     height: 470px;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: 0.3s;
 }
 .news-feed-block__item{
     display: flex;
     height: 90px;
     padding-left: 17px;
     padding-right: 15px;
-    padding-top: 9px;
+    padding-top: 10px;
     padding: 10px;
 }
 .news-feed-block__image{

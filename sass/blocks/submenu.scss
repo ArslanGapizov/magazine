@@ -2,10 +2,20 @@
     list-style: none;
     margin: auto;
     padding: 0;
+    transition: 0.3s;
+    overflow: hidden;
     &_1{
         width: 228px;
         font-size: 16px;
         background-color: #152840;
+    }
+    &_visible{
+        transform-origin: right;
+        width: 228px;
+    }
+    &_invisible{
+        transform-origin: right;
+        width: 0px;
     }
 }
 .submenu__item{

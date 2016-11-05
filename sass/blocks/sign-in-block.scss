@@ -29,16 +29,36 @@
     vertical-align: middle;
     border-radius: 50%;
     fill: #fff;
+    transition: 0.3s;
     &_facebook{
-        background-color: #4d6baa;
+        $color: #4d6baa;
+        background-color: $color;
+        &:hover{
+            background-color: darken( $color, 15% );
+        }
     }
     &_twitter{
-        background-color: #4fc6f8;
+        $color: #4fc6f8;
+        background-color: $color;
+        &:hover{
+            background-color: darken( $color, 15% );
+        }
     }
     &_google-plus{
-        background-color: #ea6060;
+        $color: #ea6060;
+        background-color: $color;
+        &:hover{
+            background-color: darken( $color, 15% );
+        }
     }
     &_linkedin{
-        background-color: #238cc8;
+        $color: #238cc8;
+        background-color: $color;
+        &:hover{
+            background-color: darken( $color, 15% );
+        }
+    }
+    &:active{
+        opacity: 0.6;
     }
 }

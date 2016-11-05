@@ -92,6 +92,9 @@
 .post__link{
     text-decoration: none;
     color: #ea6060;
+    &:hover{
+        color: #d20808;
+    }
 }
 .post__btns{
     display: flex;
@@ -134,10 +137,23 @@
     text-decoration: none;
     color: #fff;
     fill: #fff;
+    transition: 0.3s;
     &_like{
         &:hover{
+            color: #ea6060;
             fill: #ea6060;
-            stroke: #ea6060;
+        }
+    }
+    &_share{
+        &:hover{
+            color: #4fc6f8;
+            fill: #4fc6f8;
+        }
+    }
+    &_later{
+        &:hover{
+            color: #4fc6f8;
+            fill: #4fc6f8;
         }
     }
 }

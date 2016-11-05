@@ -7,4 +7,9 @@
     line-height: 60px;
     text-align: center;
     vertical-align: middle;
+    fill: #b2b9bd;
+    transition: 0.3s;
+    &:hover{
+        fill: #56ccc8;
+    }
 }

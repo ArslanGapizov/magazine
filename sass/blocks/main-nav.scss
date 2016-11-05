@@ -22,4 +22,11 @@
     font-style: normal;
     text-decoration: none;
     color: #475055;
+    transition: 0.2s;
+    &:hover{
+        color: #56ccc8;
+    }
+    &:active{
+        opacity: 0.3;
+    }
 }

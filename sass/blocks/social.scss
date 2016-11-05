@@ -13,7 +13,9 @@
     padding-left: 10px;
     padding-right: 10px;
     vertical-align: middle;
-}
-.social__item svg{
     fill: #b2b9bd;
+    transition: 0.3s;
+    &:hover{
+        fill: #56ccc8;
+    }
 }
