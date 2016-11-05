@@ -1,9 +1,0 @@
-build/
-node_modules/
-.DS_Store
-Thumbs.db
-.idea
-*.log
-*.psd
-*.ai
-css/*.css
